@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spangleddd_stocks",
+  "version": "${version}",
+  "name": "spangleddd stocks (scratch version)",
+  "description": "Tracks DonutSMP auction house prices, graphs current vs last week, and alerts you to short-term and long-term investments.",
+  "authors": ["spangleddd"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.spangleddd.stocks.SpangleStocksClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
